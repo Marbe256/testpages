@@ -43,8 +43,8 @@ $$
 
 | $k$ | 左側 (差分形式) | 右側 (展開形式) |
 | :---: | :--- | :--- |
-| **1** | $$\left(\Delta_{2,2}\right) - \left(\Delta_{2,1}\right)$$|$$\binom{4}{3}\left[ \biggl\{(4^3-3^3)-(3^3-2^3)\biggl\} - \biggl\{(3^3-2^3)-(2^3-1^3)\biggl\} \right] n + \binom{4}{4}\left[ \biggl\{(4^4-3^4)-(3^4-2^4)\biggl\} - \biggl\{(3^4-2^4)-(2^4-1^4)\biggl\} \right]$$ |
-| **2** | $$\left(\Delta_{2,3}\right) - \left(\Delta_{2,2}\right)$$|$$\binom{4}{3}\left[ \biggl\{(5^3-4^3)-(4^3-3^3)\biggl\} - \biggl\{(4^3-3^3)-(3^3-2^3)\biggl\} \right] n + \binom{4}{4}\left[ \biggl\{(5^4-4^4)-(4^4-3^4)\biggl\} - \biggl\{(4^4-3^4)-(3^4-2^4)\biggl\} \right]$$ |
+| **1** | $$\left(\Delta_{2,2}\right) - \left(\Delta_{2,1}\right)$$|$$\binom{4}{3}\left[ \left\((4^3-3^3)-(3^3-2^3)\right\) - \left\((3^3-2^3)-(2^3-1^3)\right\) \right] n + \binom{4}{4}\left[ \left\((4^4-3^4)-(3^4-2^4)\right\) - \left\((3^4-2^4)-(2^4-1^4)\right\) \right]$$ |
+| **2** | $$\left(\Delta_{2,3}\right) - \left(\Delta_{2,2}\right)$$|$$\binom{4}{3}\left[ \left\((5^3-4^3)-(4^3-3^3)\right\) - \left\((4^3-3^3)-(3^3-2^3)\right\) \right] n + \binom{4}{4}\left[ \left\((5^4-4^4)-(4^4-3^4)\right\) - \left\((4^4-3^4)-(3^4-2^4)\right\) \right]$$ |
 
 ---
 
@@ -52,6 +52,6 @@ $$
 
 | $k$ | 左側 (差分形式) | 右側 (展開形式) |
 | :---: | :--- | :--- |
-| **1** | $$\left(\Delta_{3,2}\right) - \left(\Delta_{3,1}\right)$$|$$\binom{4}{4} \left[ \biggl\{\left((5^4-4^4)-(4^4-3^4)\right)-\left((4^4-3^4)-(3^4-2^4)\right)\biggl\} - \biggl\{\left((4^4-3^4)-(3^4-2^4)\right)-\left((3^4-2^4)-(2^4-1^4)\right)\biggl\} \right]$$ |
+| **1** | $$\left(\Delta_{3,2}\right) - \left(\Delta_{3,1}\right)$$|$$\binom{4}{4} \left[ \left\(\left((5^4-4^4)-(4^4-3^4)\right)-\left((4^4-3^4)-(3^4-2^4)\right)\right\) - \left\(\left((4^4-3^4)-(3^4-2^4)\right)-\left((3^4-2^4)-(2^4-1^4)\right)\right\) \right]$$ |
 
 ---
