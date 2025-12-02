@@ -41,7 +41,7 @@ $$
 
 ### 例： $\alpha=3$ における 2階差分 ($m=2$)
 
-上記の一般式に $\alpha=3, m=2$ を代入し、$n+k=x$ として展開します。
+上記の一般式に $\alpha=3, m=2$ を代入し、 $n+k=x$ として展開します。
 
 $$
 \begin{aligned}
@@ -58,7 +58,7 @@ $$
 
 ### 例： $\alpha=4$ における 3階差分 ($m=3$)
 
-同様に、$\alpha=4, m=3$ を代入し、$n+k=x$ として展開します。
+同様に、 $\alpha=4, m=3$ を代入し、 $n+k=x$ として展開します。
 
 $$
 \begin{aligned}
@@ -86,7 +86,7 @@ $$
 | :---: | :--- |
 | **$\Delta^\alpha (0^\alpha)$** | $$\sum_{j=0}^{\alpha} \binom{\alpha}{j} (-1)^{\alpha-j} j^{\alpha} = \alpha!$$ |
 
-$\alpha$ が自然数の場合、$\alpha$ 階差分をとると定数 $\alpha!$ になります。
+$\alpha$ が自然数の場合、 $\alpha$ 階差分をとると定数 $\alpha!$ になります。
 
 ### 証明（最高次の項に着目）
 
@@ -128,4 +128,5 @@ $$
 $$
 \sum_{j=0}^{\alpha} \binom{\alpha}{j} (-1)^{\alpha-j} j^{\alpha} = \alpha!
 $$
+
 ---
