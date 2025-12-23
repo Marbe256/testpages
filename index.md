@@ -5,13 +5,26 @@
 
 ### 和の公式
 - [和の公式集 (基本) - summation_formulas.md](summation_formulas.md)
-- [和の公式集 ( $n^3$ - $n^{12}$ ) - npower.md](npower.md)
-- [和の公式集 ( $n^{13}$ - $n^{20}$ ) - npower2.md](npower2.md)
+- [和の公式集 (
+$n^3$ - $n^{12}$
+) - npower.md](npower.md)
+- [和の公式集 (
+$n^{13}$ - $n^{20}$
+) - npower2.md](npower2.md)
 
 ### 差分計算
-- [ $(n+k)^\alpha$ の差分操作 (一般化) - alphapower.md ](alphapower.md)
-- [ $(n+k)^3$ の差分操作 - cubed.md ](cubed.md)
-- [ $(n+k)^4$ の差分操作 - fourthpower.md ](fourthpower.md)
+- [
+    $(n+k)^\alpha$
+    の差分操作 (一般化) - alphapower.md
+ ](alphapower.md)
+- [
+    $(n+k)^3$
+    の差分操作 - cubed.md
+  ](cubed.md)
+- [
+    $(n+k)^4$
+    の差分操作 - fourthpower.md
+  ](fourthpower.md)
 
 ## ツール
 - [gen_npower.py](gen_npower.py): 冪乗和の公式生成
