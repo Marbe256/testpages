@@ -78,6 +78,7 @@ $$
 ## 4. 最終結果（ $\alpha$階差分）
 
 $\alpha$ が自然数の場合、 $\alpha$ 階差分をとると
+
 $$
 \Delta^\alpha_k = \alpha!
 $$
