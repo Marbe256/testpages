@@ -21,4 +21,4 @@ title: プロジェクトインデックス
 - [gen_npower.py](gen_npower.py): 冪乗和の公式生成
 - [calculate_sums.py](calculate_sums.py): 和の計算
 - [process_sums.py](process_sums.py): 和の処理
-- [append_npower.py](append_npower.py): 公式追記
+- [append_npower.py](append_npower.py): 公式追記 
