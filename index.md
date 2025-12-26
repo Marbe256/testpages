@@ -1,9 +1,9 @@
 ---
 layout: default
-title: プロジェクトインデックス
+title: Mathematical Number Theory
 ---
 
-# プロジェクトインデックス
+# Mathematical Number Theory
 
 ## ドキュメント
 
