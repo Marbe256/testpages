@@ -1,0 +1,8 @@
+# Ignore everything
+*
+# Allow directories so git can look inside them
+!*/
+# Allow markdown files
+!*.md
+# Allow .gitignore itself
+!.gitignore
