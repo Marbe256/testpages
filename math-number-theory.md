@@ -12,7 +12,7 @@
 
 
 $$
-(n+k)^\alpha=\sum_{p_1=0}^{\alpha}{}_\alpha C_{p_1}n^{\alpha-p_1}k^{p_1}
+(n+k)^\alpha = \sum_{p_1=0}^{\alpha} {}_\alpha C_{p_1} n^{\alpha-p_1} k^{p_1} \quad (1)
 $$
 
 
@@ -21,7 +21,7 @@ $$
 
 
 $$
-\Delta^m (n+k)^\alpha = \sum_{p_1=m}^{\alpha} {}_\alpha C_{p_1} n^{\alpha-p_1} \cdot (\Delta^m k^{p_1}) \tag{2}
+\Delta^m (n+k)^\alpha = \sum_{p_1=m}^{\alpha} {}_\alpha C_{p_1} n^{\alpha-p_1} \cdot (\Delta^m k^{p_1}) \quad (2)
 $$
 
 
@@ -31,7 +31,7 @@ $k^{p_1}$ に $m$ 階差分を作用させた際に現れる $j$ 次項の係数
 
 
 $$
-\Delta^m k^{p_1} = \sum_{j=0}^{p_1-m} \text{Coeff}(p_1, m, j) \, k^j \tag{3}
+\Delta^m k^{p_1} = \sum_{j=0}^{p_1-m} \text{Coeff}(p_1, m, j) \, k^j \quad (3)
 $$
 
 
@@ -40,7 +40,7 @@ $$
 
 
 $$
-\text{Coeff}(p_1, m, j) = \sum_{p_1 > i_1 > i_2 > \dots > i_{m-1} > j} ({}_{p_1} C_{i_1} \cdot {}_{i_1} C_{i_2} \cdot \dots \cdot {}_{i_{m-1}} C_j) \tag{4}
+\text{Coeff}(p_1, m, j) = \sum_{p_1 > i_1 > i_2 > \dots > i_{m-1} > j} ({}_{p_1} C_{i_1} \cdot {}_{i_1} C_{i_2} \cdot \dots \cdot {}_{i_{m-1}} C_j) \quad (4)
 $$
 
 
@@ -80,7 +80,7 @@ $$
 
 >
 > $$
-> \Delta^m (n+k)^\alpha = \sum_{p_1=m}^{\alpha} \left( \frac{\alpha!}{(\alpha-p_1)! p_1!} n^{\alpha-p_1} \cdot \sum_{j} \text{Coeff}(p_1, m, j) \cdot k^j \right) \tag{5}
+> \Delta^m (n+k)^\alpha = \sum_{p_1=m}^{\alpha} \left( \frac{\alpha!}{(\alpha-p_1)! p_1!} n^{\alpha-p_1} \cdot \sum_{j} \text{Coeff}(p_1, m, j) \cdot k^j \right) \quad (5)
 > $$
 >
 
@@ -93,7 +93,7 @@ $$
 
 >
 > $$
-> \text{Coeff}(p_1, m, j) = \sum_{d_i \ge 1} \frac{p_1!}{d_1! d_2! \dots d_m! \cdot j!} \tag{6}
+> \text{Coeff}(p_1, m, j) = \sum_{d_i \ge 1} \frac{p_1!}{d_1! d_2! \dots d_m! \cdot j!} \quad (6)
 > $$
 >
 
@@ -105,7 +105,7 @@ $$
 
 
 $$
-\text{Coeff}(p_1, m, j) = \frac{(j+m)!}{j!} \cdot S_2(p_1, j+m) \tag{7}
+\text{Coeff}(p_1, m, j) = \frac{(j+m)!}{j!} \cdot S_2(p_1, j+m) \quad (7)
 $$
 
 
