@@ -12,7 +12,7 @@
 
 
 $$
-(n+k)^\alpha = \sum_{p_1=0}^{\alpha} {}_\alpha C_{p_1} n^{\alpha-p_1} k^{p_1} \tag{1}
+(n+k)^\alpha=\sum_{p_1=0}^{\alpha}{}_\alpha C_{p_1}n^{\alpha-p_1}k^{p_1} \tag{1}
 $$
 
 
