@@ -19,8 +19,3 @@ title: Mathematical Number Theory
 - $(n+k)^3$ の差分操作: [cubed.md](cubed.md)
 - $(n+k)^4$ の差分操作: [fourthpower.md](fourthpower.md)
 
-## ツール
-- [gen_npower.py](gen_npower.py): 冪乗和の公式生成
-- [calculate_sums.py](calculate_sums.py): 和の計算
-- [process_sums.py](process_sums.py): 和の処理
-- [append_npower.py](append_npower.py): 公式追記
