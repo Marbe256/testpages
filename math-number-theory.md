@@ -10,20 +10,36 @@
 ### 1. 序論 (Introduction)
 多項式 $(n+k)^\alpha$ を初期値 $n$ と変数 $k$ に分配し、そこへ $m$ 階差分 $\Delta^m$ を作用させる構造を定義する。まず、二項展開により以下の式を得る。
 
-$$(n+k)^\alpha = \sum_{p_1=0}^{\alpha} {}_\alpha C_{p_1} n^{\alpha-p_1} k^{p_1} \tag{1}$$
+
+$$
+(n+k)^\alpha = \sum_{p_1=0}^{\alpha} {}_\alpha C_{p_1} n^{\alpha-p_1} k^{p_1} \tag{1}
+$$
+
 
 この式に $m$ 階差分を適用すると、$p_1 < m$ の項は消滅するため、和の範囲は $m$ から $\alpha$ となる。
 
-$$\Delta^m (n+k)^\alpha = \sum_{p_1=m}^{\alpha} {}_\alpha C_{p_1} n^{\alpha-p_1} \cdot (\Delta^m k^{p_1}) \tag{2}$$
+
+$$
+\Delta^m (n+k)^\alpha = \sum_{p_1=m}^{\alpha} {}_\alpha C_{p_1} n^{\alpha-p_1} \cdot (\Delta^m k^{p_1}) \tag{2}
+$$
+
 
 ### 2. 差分係数の定式化と具体的展開 (Formulation and Expansion of Difference Coefficients)
 $k^{p_1}$ に $m$ 階差分を作用させた際に現れる $j$ 次項の係数 $\text{Coeff}(p_1, m, j)$ を次のように定義する。
 
-$$\Delta^m k^{p_1} = \sum_{j=0}^{p_1-m} \text{Coeff}(p_1, m, j) \, k^j \tag{3}$$
+
+$$
+\Delta^m k^{p_1} = \sum_{j=0}^{p_1-m} \text{Coeff}(p_1, m, j) \, k^j \tag{3}
+$$
+
 
 この係数は、二項係数の連鎖的な積の総和として記述可能である。
 
-$$\text{Coeff}(p_1, m, j) = \sum_{p_1 > i_1 > i_2 > \dots > i_{m-1} > j} ({}_{p_1} C_{i_1} \cdot {}_{i_1} C_{i_2} \cdot \dots \cdot {}_{i_{m-1}} C_j) \tag{4}$$
+
+$$
+\text{Coeff}(p_1, m, j) = \sum_{p_1 > i_1 > i_2 > \dots > i_{m-1} > j} ({}_{p_1} C_{i_1} \cdot {}_{i_1} C_{i_2} \cdot \dots \cdot {}_{i_{m-1}} C_j) \tag{4}
+$$
+
 
 以下に、$\text{Coeff}(p_1, m, j)$ の具体的な値を、元の次数 $p_1$ に基づいて第5項まで示す。
 
@@ -56,16 +72,32 @@ $$\text{Coeff}(p_1, m, j) = \sum_{p_1 > i_1 > i_2 > \dots > i_{m-1} > j} ({}_{p_
 > 
 > 任意の $\alpha$ 次多項式 $(n+k)^\alpha$ に対する $m$ 階差分は、次のように記述される。
 > 
-> $$\Delta^m (n+k)^\alpha = \sum_{p_1=m}^{\alpha} \left( \frac{\alpha!}{(\alpha-p_1)! p_1!} n^{\alpha-p_1} \cdot \sum_{j} \text{Coeff}(p_1, m, j) \cdot k^j \right) \tag{5}$$
+
+>
+> $$
+> \Delta^m (n+k)^\alpha = \sum_{p_1=m}^{\alpha} \left( \frac{\alpha!}{(\alpha-p_1)! p_1!} n^{\alpha-p_1} \cdot \sum_{j} \text{Coeff}(p_1, m, j) \cdot k^j \right) \tag{5}
+> $$
+>
+
 > 
 > ここで係数 $\text{Coeff}$ は、減少量の合計 $d_1 + \dots + d_m = p_1 - j$ を満たす全ての正の整数解（落差の分割）における多項係数の総和に等しい。
 > 
-> $$\text{Coeff}(p_1, m, j) = \sum_{d_i \ge 1} \frac{p_1!}{d_1! d_2! \dots d_m! \cdot j!} \tag{6}$$
+
+>
+> $$
+> \text{Coeff}(p_1, m, j) = \sum_{d_i \ge 1} \frac{p_1!}{d_1! d_2! \dots d_m! \cdot j!} \tag{6}
+> $$
+>
+
 
 ### 5. 数論的背景：第2種スターリング数との接続 (Theoretical Background: Connection to Stirling Numbers)
 本理論で導出した $\text{Coeff}$ は、第2種スターリング数 $S_2(n, k)$ を用いて以下の通り一般化される。
 
-$$\text{Coeff}(p_1, m, j) = \frac{(j+m)!}{j!} \cdot S_2(p_1, j+m) \tag{7}$$
+
+$$
+\text{Coeff}(p_1, m, j) = \frac{(j+m)!}{j!} \cdot S_2(p_1, j+m) \tag{7}
+$$
+
 
 二項係数の積 ${}_n C_a \cdot {}_a C_b$ を階乗形式に分解すると、分母に各段階の「落差」が現れる。この落差の順序不変性が、多項係数によるパターンの集約を可能にしている。
 
