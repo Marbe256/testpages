@@ -50,10 +50,10 @@ n**7/140 + n**3/60 - n/42
 
 つぎに、$\sum k^6$ に注目する。$\sum k^6$ は $\sum (n-k)^6$ でもあるので、
 $$ \sum k^6 = \sum (n-k)^6 \quad (k=1 \dots n-1) \\
-          &= \sum (n-k)^3 \cdot (n-k)^3 \\
-          &= \sum (n^3 - 3n^2k - 3nk^2 - k^3) \cdot (n-k)^3 \\
-          &= n^3 \sum (n-k)^3 - 3n^2 \sum (n-k)^3 k - 3n \sum (n-k)^3 k^2 - \sum (n-k)^3 k^3 \\
-          &= n^3 \sum k^3 - 3n^2 \sum (n-k)k^3 - 3n \sum (n-k)^2 k^3 - \sum (n-k)^3 k^3
+          = \sum (n-k)^3 \cdot (n-k)^3 \\
+          = \sum (n^3 - 3n^2k - 3nk^2 - k^3) \cdot (n-k)^3 \\
+          = n^3 \sum (n-k)^3 - 3n^2 \sum (n-k)^3 k - 3n \sum (n-k)^3 k^2 - \sum (n-k)^3 k^3 \\
+          = n^3 \sum k^3 - 3n^2 \sum (n-k)k^3 - 3n \sum (n-k)^2 k^3 - \sum (n-k)^3 k^3
 $$
 近道します。
 
@@ -65,16 +65,16 @@ $$ n^6 = n^2 + n \cdot \frac{5!}{4} \sum (n-k)^2 k^2 $$
 となる。
 $\sum (n-k)^2 k^3$ について考察する。
 $$
- \sum (n-k)^2 k^3 &= \sum (n-k)^3 k^2 \\
-                  &= \sum (n-k)(n-k)^2 k^2 \\
-                  &= n \sum (n-k)^2 k^2 - \sum (n-k)^2 k^3 \\
-                  &= \frac{n}{2} \sum (n-k)^2 k^2
+ \sum (n-k)^2 k^3 = \sum (n-k)^3 k^2 \\
+                  = \sum (n-k)(n-k)^2 k^2 \\
+                  = n \sum (n-k)^2 k^2 - \sum (n-k)^2 k^3 \\
+                  = \frac{n}{2} \sum (n-k)^2 k^2
 $$
 $\sum (n-k)^2 k^2$ と $\sum (n-k)^2 k^3$ から
 $$
  n^6 = n^2 + n \cdot \frac{5!}{4} \sum (n-k)^2 k^2 \\
-     &= n^2 + \frac{5!}{2} \sum (n-k)^2 k^3 \\
-     &= n^2 + \frac{6!}{12} \sum (n-k)^2 k^3
+     = n^2 + \frac{5!}{2} \sum (n-k)^2 k^3 \\
+     = n^2 + \frac{6!}{12} \sum (n-k)^2 k^3
 $$
 となる。
 分母の12に関しては2!x3!と関係がありそう。
@@ -93,6 +93,6 @@ $$
 上の式の総和は、
 $$
  n^6 - 1^6 = (n-1) + 6 \sum k + 15 \sum k^2 + 20 \sum k^3 + 15 \sum k^4 + 6 \sum k^5 \quad (k=1 \dots n-1) \\
- 6 \sum k^5 &= n^6 - ( n + 6 \sum k + 15 \sum k^2 + 20 \sum k^3 + 15 \sum k^4 )
+ 6 \sum k^5 = n^6 - ( n + 6 \sum k + 15 \sum k^2 + 20 \sum k^3 + 15 \sum k^4 )
 $$
            
