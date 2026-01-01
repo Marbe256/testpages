@@ -55,7 +55,9 @@ $$
 #### 3.2 事例分析：  $p_1=5, m=3$
 * **$k^2$ 係数:** ${}_5 C_4 \times {}_4 C_3 \times {}_3 C_2 = 60$
 * **$k^1$ 係数:** 遷移経路（例： $5 \to 3 \to 2 \to 1$ ）の合流。計 $60 \times 3 = 180$
+$({}_5 C_3 \times {}_3 C_2 \times {}_2 C_1) + ({}_5 C_4 \times {}_4 C_2 \times {}_2 C_1) + ({}_5 C_4 \times {}_4 C_3 \times {}_3 C_1) = (10 \times 3 \times 2)+(5 \times 6 \times 2)+(5 \times 4 \times 3) = 180$
 * **$k^0$ 係数:** 落差の組 $[3,1,1]$ (60) と $[2,2,1]$ (90) の総和。計 $150$
+$(({}_5 C_2 \times {}_2 C_1 \times {}_1 C_0) + ({}_5 C_4 \times {}_4 C_1 \times {}_1 C_0) + ({}_5 C_4 \times {}_4 C_3 \times {}_3 C_0)) +({}_5 C_3 \times {}_3 C_1 \times {}_1 C_0) + ({}_5 C_3 \times {}_3 C_2 \times {}_2 C_0) + ({}_5 C_4 \times {}_4 C_2 \times {}_2 C_0)) = ((10 \times 2 \times 1)+(5 \times 4 \times 1)+(5 \times 4 \times 1) + (10 \times 3 \times 1) +(10 \times 3 \times 1) +(5 \times 6 \times 1)) = 60 + 90 = 150$
 
 ### 4. 多項式差分の連鎖分割定理 (Theorem of Linked Partitions in Polynomial Differences)
 以上の考察に基づき、任意の多項式差分に関する一般定理を導出する。
